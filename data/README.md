@@ -1,4 +1,4 @@
-﻿# Data Guide
+# Data Guide
 
 This guide covers recommended datasets, sources, preprocessing notes, ethical considerations, and how data is organized in this repo.
 

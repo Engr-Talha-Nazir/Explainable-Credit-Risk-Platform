@@ -1,4 +1,4 @@
-﻿# Explanation Comparison Report: SHAP vs LIME vs DiCE
+# Explanation Comparison Report: SHAP vs LIME vs DiCE
 
 *This is a template report. It will be populated after running the full pipeline (training + explanation generation + comparison). The structure below matches the requirement: "A comparison of explanation methods and where they disagree".*
 

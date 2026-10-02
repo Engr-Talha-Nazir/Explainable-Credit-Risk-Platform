@@ -1,23 +1,18 @@
-﻿# Basic tests
-import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+from api import main
+from utils import seed
 
 
-def test_health_import():
-    from api import main
-
+def test_health_import() -> None:
     assert hasattr(main, "app")
 
 
-def test_seed_reproducible():
-    from utils import seed
-
+def test_seed_reproducible() -> None:
     seed.set_seed(42)
 
 
-def test_project_structure():
+def test_project_structure() -> None:
     root = Path(__file__).resolve().parents[1]
     assert (root / "README.md").exists()
     assert (root / "LICENSE").exists()

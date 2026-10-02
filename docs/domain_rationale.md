@@ -1,4 +1,4 @@
-﻿# Domain Rationale: Why Credit (Loan Approval)?
+# Domain Rationale: Why Credit (Loan Approval)?
 
 This project focuses on **credit risk (loan approval)** as the high-stakes domain for explainable and fair AI. The rationale below justifies this choice against alternatives (hiring, healthcare).
 

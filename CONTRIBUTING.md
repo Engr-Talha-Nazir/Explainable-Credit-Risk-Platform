@@ -1,4 +1,4 @@
-﻿# Contributing to Explainable-Credit-Risk-Platform
+# Contributing to Explainable-Credit-Risk-Platform
 
 Thanks for your interest in contributing! This project aims to be a professional, reproducible reference for explainable and fair ML in credit risk.
 

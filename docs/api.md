@@ -1,4 +1,4 @@
-﻿# API Reference
+# API Reference
 
 The FastAPI service exposes endpoints for predictions, explanations, and counterfactuals.
 

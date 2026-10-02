@@ -1,9 +1,5 @@
-﻿import logging
+import logging
 from pathlib import Path
-
-from .seed import set_seed
-
-logger = logging.getLogger(__name__)
 
 
 def setup_logging(level: int = logging.INFO) -> None:

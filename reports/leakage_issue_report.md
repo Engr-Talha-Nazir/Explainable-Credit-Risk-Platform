@@ -1,4 +1,4 @@
-﻿# Leakage/Proxy Feature Issue Report
+# Leakage/Proxy Feature Issue Report
 
 *Template to document an issue caught via explanations.*
 

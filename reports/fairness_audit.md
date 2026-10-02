@@ -1,4 +1,4 @@
-﻿# Fairness Audit Report: Before vs After with Accuracy Trade-off
+# Fairness Audit Report: Before vs After with Accuracy Trade-off
 
 *Template report — populated after running fairness audit (src/fairness/audit.py, src/fairness/mitigation.py). Covers before/after fairness metrics and accuracy trade-off as requested.*
 

@@ -1,4 +1,4 @@
-﻿# Methodology
+# Methodology
 
 This document outlines the methods used for prediction, explainability (SHAP, LIME, DiCE), fairness auditing (Fairlearn), leakage detection, and evaluation.
 
