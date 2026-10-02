@@ -5,7 +5,7 @@
 [![isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
 [![Pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://pre-commit.com/)
 
-A production-grade, explainable and fair credit risk prediction system. It provides transparent loan approval decisions with plain-language explanations, counterfactual "what-if" recommendations, and a rigorous fairness audit — built for high-stakes decision-making with regulatory considerations (GDPR right to explanation, fair lending).
+An end-to-end, production-grade Explainable AI (XAI) and Fair ML system for credit risk (loan approval). It delivers transparent, auditable decisions with plain-language explanations, actionable counterfactual "what-if" recourse, and a rigorous Fairlearn bias audit (before/after with explicit accuracy–fairness trade-offs). Built with XGBoost, SHAP, LIME, DiCE, and Fairlearn, it also includes leakage/proxy detection, explanation-method disagreement analysis, a FastAPI service, and an interactive Streamlit dashboard — designed with GDPR right-to-explanation and fair-lending considerations in mind.
 
 ## Key Features
 
