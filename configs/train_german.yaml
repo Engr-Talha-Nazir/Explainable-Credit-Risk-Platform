@@ -1,0 +1,45 @@
+data:
+  name: german_credit
+  path_raw: data/raw/german_credit.csv
+  path_processed: data/processed/german_credit_processed.csv
+  test_size: 0.15
+  val_size: 0.15
+  random_state: 42
+  stratify: true
+  protected_attrs:
+  - age
+  - sex
+  age_bins:
+  - 0
+  - 25
+  - 40
+  - 60
+  - 120
+preprocessing:
+  drop_cols: []
+  impute_strategy: median
+  scale_numeric: false
+  handle_outliers: false
+model:
+  type: xgboost
+  params:
+    objective: binary:logistic
+    eval_metric: auc
+    max_depth: 4
+    learning_rate: 0.05
+    n_estimators: 200
+    subsample: 0.8
+    colsample_bytree: 0.8
+    reg_alpha: 0.1
+    reg_lambda: 1.0
+    random_state: 42
+  early_stopping_rounds: 20
+train:
+  save_path: models/xgb_model.joblib
+  metrics:
+  - accuracy
+  - balanced_accuracy
+  - roc_auc
+  - f1
+  - precision
+  - recall

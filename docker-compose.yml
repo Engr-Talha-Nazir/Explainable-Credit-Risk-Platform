@@ -1,0 +1,30 @@
+﻿services:
+  api:
+    build: .
+    container_name: xai-credit-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports
+      - ./models:/app/models
+      - ./configs:/app/configs
+    environment:
+      - ENV=dev
+    command: uvicorn src.api.main:app --host 0.0.0.0 --port 8000 --reload
+
+  dashboard:
+    build: .
+    container_name: xai-credit-dashboard
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports
+      - ./models:/app/models
+      - ./configs:/app/configs
+    environment:
+      - ENV=dev
+    depends_on:
+      - api
+    command: streamlit run src/dashboard/app.py --server.port=8501 --server.address=0.0.0.0

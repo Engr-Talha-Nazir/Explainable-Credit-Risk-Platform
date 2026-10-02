@@ -1,0 +1,3 @@
+dataset: german_credit
+raw_path: data/raw/german_credit.csv
+processed_path: data/processed/german_credit_processed.csv

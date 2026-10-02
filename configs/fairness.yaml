@@ -1,0 +1,16 @@
+protected_attrs:
+- age
+- sex
+age_bins:
+- 0
+- 25
+- 40
+- 60
+- 120
+metrics:
+- demographic_parity_difference
+- equalized_odds_difference
+- disparate_impact
+mitigation:
+- reweighing
+accuracy_tradeoff: true
